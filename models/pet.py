@@ -7,7 +7,7 @@ class Pet(models.Model):
     _description = "Mascotas de Clientes"
 
     name = fields.Char(string="Nombre", required=True)
-    raza = fields.Selecction([('chihuahua', 'Chihuahua'), ('chitzu', 'Chitzu')], string="Raza")
+    raza = fields.Selection([('chihuahua', 'Chihuahua'), ('chitzu', 'Chitzu')], string="Raza")
     age = fields.Integer(string="Edad")
     weight = fields.Float(string="Peso")
     vaccinated = fields.Boolean(string="Vacunado")
