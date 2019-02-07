@@ -16,6 +16,7 @@
         "static/description/icon.png",
     ],
     "data": [
+        "views/pets_view.xml",
     ],
     "installable": True,
     "application": True,
