@@ -16,8 +16,6 @@
         "static/description/icon.png",
     ],
     "data": [
-        "security/ir.model.access.csv",
-        "data/ir_config_param.xml",
     ],
     "installable": True,
     "application": True,
